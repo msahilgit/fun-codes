@@ -64,6 +64,7 @@ Panalyze : for complex calculations
 > RCSB website do provide downloading path, but rcsb.sh script do it in nicer-fun way with rotating and colorfull progress bar etc....
 
 > Syntax:
+
           >>> rcsb id1 (pdb id to download) id2 (optional, saving name)
 
 
