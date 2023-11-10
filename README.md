@@ -65,7 +65,7 @@ Panalyze : for complex calculations
 
 > Syntax:
 
-          >>> rcsb id1 (pdb id to download) id2 (optional, saving name)
+          >>> rcsb id1 (pdb id to download) id2 (optional, saving name with/without path)
 
 
 
