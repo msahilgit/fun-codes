@@ -6,16 +6,16 @@ Welcome to my small and fun codes, written during my initial learning period as 
 **STATISTICS**
 > If you are starting Molecular Dynamics career using GROMACS and do not use python yet, this code can perform some of the statistical analysis on gromacs generated xvg files.
 > Syntax of this code is similar to gromacs,
-        Statistics sub_command -f ... options
-        list of sub_commands are available like bootstrapped mean, binding time etc
-        like gromacs, it does not overwrite, instead backed up the files
-        in addition to gromacs, if sub_command has some alphabetical error, it also suggest the correct names.
+        >> Statistics sub_command -f ... options
+        >> list of sub_commands are available like bootstrapped mean, binding time etc
+        >> like gromacs, it does not overwrite, instead backed up the files
+        >> in addition to gromacs, if sub_command has some alphabetical error, it also suggest the correct names.
 
 Usage:
 > put this code in any of your BASH PATH and modify python path (first line in statistics.py)
 > just write statistics in terminal, it should print usage.
 >  for any help, just like gromacs, write
-        statistics sub_command -h
+        >>> statistics sub_command -h
 
 
 
@@ -24,13 +24,20 @@ Usage:
 > pair_maker can take gromacs index file (.ndx) containing the input index groups and generate new index group (pairwise index group).
 
 Uage:
-> put this script in BASH PATH and modify python path (first line)
+> put this script in BASH PATH and modify python path (first line)     
 > just write pair_maker, it should print syntax
 
 
 
 **Calculator and panalyze**
-
+> As a terminal lover, I don't like to open calculator or jupyter-notebook (favoured python environment) for some quick mathematical calculations while doing any analysis.
+> Calculator.py and panalyze.py scripts can do that, just put in BASH PATH and adjust the python paths.
+Calculator : for simple and direct calculations, like mean, product, permutation etc
+> Syntax : for example calculating 10C3 (combinations of 3 out of 10),
+>  calculator combination 10 3
+Panalyze : for complex calculations
+> Syntax:
+> > panalyze -q "  mathematical expression in numpy (np) format  "
 
 
 
