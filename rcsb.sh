@@ -45,14 +45,3 @@ fi
 
 
 
-
-  #bar=("|" "/" "-" '\')
-  #p=0
-  #i=1
-  #while [ -d /proc/${PID} ] ; do
-    #j=`expr ${p} % 4`
-    #echo -ne "\b"${bar[$j]}
-    #echo -ne "\b"${bar:i++%${#bar}:1}
-    #sleep 0.2
-  #done
-  #wait
