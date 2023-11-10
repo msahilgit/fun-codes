@@ -58,7 +58,7 @@ Panalyze : for complex calculations
 
 
 
-**rcsb**
+**RCSB**
 > As a protein biophysicist, downloading PDB structures is frequent exercise.
 
 > RCSB website do provide downloading path, but rcsb.sh script do it in nicer-fun way with rotating and colorfull progress bar etc....
